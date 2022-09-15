@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+ 
+    
+<div id="app" class="content col-6 mt-5">
+    <img class="btn btn-sn" v-bind:src="imagen" @click="chocala" alt="button plama">
+    <h4>{{ gitmefive }}</h4>
+    <h1>{{ saludo }}</h1>
+    <h4> <strong>{{ saluso }}</strong> </h4>
+     <br>
+    <p>{{text}}</p>
+     
+</div>
+
+
+
+
+</body>
+
+
+<script src="./index.js"></script>
+
+<!-- NO ES NECESARIA SEGUN DOCEMENTACION OFICIAL VUE
+  <script>const mountedApp=app.mount("#app");</script>
+ -->
+</html>

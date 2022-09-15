@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    border-color: rgb(156, 156, 156); 
+    margin-bottom: 2cm;
+
+  }
+
+ 
